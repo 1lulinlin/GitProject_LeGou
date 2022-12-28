@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>全国天气查询小应用</title>
+    <link rel="stylesheet" href="../../css/1.css"/>
+    <link rel="icon" href="favicon.ico"/>
+	
+</head>
+<body>
+<audio  autoplay loop="loop">
+	<source src="mp3/海为气象园.mp3">
+</audio>
+
+
+<header>
+    <h1><font face='cursive' color='white'><b>❄ 气象园 ❄</b></font></h1>
+    <div id="weather_search">
+        <span><input id="text" type="text" placeholder="请输入您要查询的城市" /></span>
+        <span><input id="btn" type="button" value=" 查询天气" /></span>
+    </div>
+</header>
+    <section>
+	<font color='white'>
+        <div id="today_container">
+		
+            <div>
+                <img src="../../img/yun.png" alt="今日天气"/>
+            </div><p><font size='30'color='white'><b>☀ ☁ ☂ ❄</b></font></p>
+            <div>
+                <div class="main_info"><span class="info">城市</span>|<span class="info">202X-XX-XX</span>|<span class="info">星期X</span>|<span class="info">---</span> </div>
+                <div class="more_info">今日温度：<span class="info">-----</span>风力：<span class="info">-----</span>风向：<span class="info">-----</span>PM2.5：<span class="info">--</span></div>
+            </div>
+        </div>
+        <div id="future_container">
+            <div class="future_box">
+                <img src="../../img/yun.png" alt="天气"/>
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+            <div class="future_box">
+                <img src="./images/weather_icon/3.png" alt="天气"/>
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+            <div class="future_box">
+                <img src="./images/weather_icon/2.png" alt="天气"/>
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+			
+            <div class="future_box">
+                <img src="./images/weather_icon/4.png" alt="天气"/>
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+            <div class="future_box">
+                <img src="images/weather_icon/5.png" alt="天气"/>
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+                <span class="future_info">-</span><span class="future_info">12-16℃</span>
+            </div>
+			
+        </div>
+	</font>
+</section>
+   <script src="../../js/1.js"></script>
+	<div style="text-align:center;">
+	
+</div>
+</div>
+
+</body>
+</html>
